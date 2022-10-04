@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+th {
+    background: rgba(192, 192, 192, 0.712);
+}
+
+.tb2 tbody tr td:first-child {
+    background: rgba(192, 192, 192, 0.712);
+}
+
+.tb1 th {
+    width: 150px;
+}
+
